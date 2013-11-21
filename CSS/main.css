@@ -1,13 +1,50 @@
-		div#main {
-			background-color: #CCC;
-		}
-/* Header Style */
-		header {
-			
-		}
+/*
+	Main css for TdayEx page
+*/	
 
-		blockquote {
-				font-family:Garmond;
-				color:blue;
-				font-size:24px;
-		}
+/*======Global Styles ==== */
+
+
+body {
+	background-color: #CCC;
+	margin: 0;
+	padding:0;
+}
+
+/* Header Style */
+
+div#header {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: white;
+}
+
+/* Main Menu */
+
+#header #mainnav {
+	position: absolute;
+	left: 600px;
+	bottom: 0;
+}
+
+#mainnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#mainnav li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+blockquote {
+	font-family:Garmond;
+	color:blue;
+	font-size:24px;
+	}
