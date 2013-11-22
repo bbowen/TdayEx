@@ -13,38 +13,56 @@ body {
 
 /* Header Style */
 
-div#header {
-	width: 100%;
+#header {
+	width: 800px;
 	height: 100px;
 	position: relative;
-	background-color: white;
+	background-color: yellow;
 }
 
 /* Main Menu */
 
-#header #mainnav {
-	position: absolute;
-	left: 600px;
+#header.nav {
+	position: relative;
+	left: 0;
 	bottom: 0;
 }
 
-#mainnav ul {
+.nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-#mainnav li {
+.nav li {
 	float: left;
-	margin: 0;
-	padding: 0;
+	position: relative;
+	left: 500px;
+	top: 80px
 }
 
+.nav li a:link, .nav li a:visited {
+	display: block;
+	color: red;
+	text-decoration: none;
+	padding: 0 5px 0 5px;
+	margin-right: 5px;
+	border: none;
 
+}
+
+.nav li a:hover, .nav li a:active {
+	color: black;
+}
+
+.nav li a:current:hover {
+	cursor: default;
+
+}
 
 
 blockquote {
 	font-family:Garmond;
 	color:blue;
-	font-size:24px;
+	font-size:20px;
 	}
