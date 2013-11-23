@@ -24,14 +24,10 @@ h2 {
 
 #header {
 	width: 800px;
-	height: 250px;
+	height: 265px;
 	position: relative;
 	margin: 10px auto;
 	background-color: #cff; 
-}
-
-#header h2 {
-	font: veranda;
 }
 
 
@@ -41,7 +37,16 @@ h2 {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
 
+.nav{
+	width: 610px;
+	height: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow; 3px 2px 3px #333;
+	background-color: #c90;
+	border-radius: 8px; 
 }
 
 .nav ul {
@@ -52,16 +57,17 @@ h2 {
 
 .nav li {
 	float: left;
-	position: relative; 
-	left: 5px;
-	top: 5px;
+	position: relative;
+	padding: 8px;
+	margin: 8px;
+	
 }
 
 .nav li a:link, .nav li a:visited {
-	display: block;
+	display: inline;
 	color: black;
 	text-decoration: none;
-	padding: 0 5px 0 5px;
+	padding: 0 30px 0 30px;
 	margin-right: 5px;
 	border: none;
 
@@ -69,11 +75,12 @@ h2 {
 
 .nav li a:hover, .nav li a:active {
 	color: red;
+	background-color: white;
+	border-radius: 8px; 
 }
 
-.nav li a:current:hover {
+.nav li a.current:hover {
 	cursor: default;
-
 }
 
 
