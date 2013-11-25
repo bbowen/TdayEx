@@ -16,35 +16,33 @@ body {
 	padding:0;
 }
 
-h2 {
-	font: veranda;
-}
-
 /* Header Style */
 
 #header {
 	width: 800px;
-	height: 265px;
+	height: 250px;
 	position: relative;
 	margin: 10px auto;
+	font-family: Georgia;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	color: #c30;
 	background-color: #cff; 
 }
 
 
 /* Main Menu */
 
-#header.nav {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-}
-
 .nav{
-	width: 610px;
-	height: 40px;
+	width: 700px;
+	height: 60px;
+	margin: auto;
 	font-weight: bold;
+	font-size: 20px;
 	text-align: center;
-	text-shadow; 3px 2px 3px #333;
+
 	background-color: #c90;
 	border-radius: 8px; 
 }
@@ -74,8 +72,11 @@ h2 {
 }
 
 .nav li a:hover, .nav li a:active {
-	color: red;
+	color: #c30;
 	background-color: white;
+	border-style: solid;
+	border-color: #c30; 
+	border-width: 2px;
 	border-radius: 8px; 
 }
 
