@@ -149,3 +149,18 @@ nav {
 	border-radius: 0.375em;
 }
 
+/*  About page styles */
+
+#colone h2{
+	color: red;
+}
+
+
+#sidebar h3{
+	text-decoration: bold;
+}
+#sidebar{
+	font-family: Georgia;
+	font-size: 16px;
+	line-height: 1em;
+}
