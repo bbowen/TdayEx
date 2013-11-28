@@ -139,7 +139,7 @@ footer {
 
 #colone, #coltwo {
 	width: 35%;
-	height: 300px;
+	height: 325px;
 	float: left;
 	padding: .5em;
 	font-family: Georgia;
@@ -151,6 +151,7 @@ footer {
 	font-weight: bold;
 	font-variant: small-caps;
 	text-align: center;
+	padding-bottom: 10px;
 }
 
 #colone p {
@@ -162,6 +163,7 @@ footer {
 	font-weight: bold;
 	font-variant: small-caps;
 	text-align: center;
+	padding-bottom: 10px;
 }
 
 #coltwo p {
@@ -169,11 +171,12 @@ footer {
 }
 #sidebar{
 	width: 25%;
-	height: 300px;
-	float: left;
+	height: 325px;
+	float: right;
 	padding: .5em;
 	font-family: Georgia;
-	border-left: 1em, solid, #c30
+	line-height: 1.5em;
+	border-left: solid #c30 3px;
 }
 
 #sidebar h3{
@@ -181,6 +184,7 @@ footer {
 	font-weight: bold;
 	font-variant: small-caps;
 	text-align: center;
+	padding-bottom: 10px;
 }
 #sidebar {
 	font-family: Georgia;
@@ -189,7 +193,8 @@ footer {
 }
 
 #sidebar ul li {
-	color: green;
+	font-family: Georgia;
+	line-height: 1.25em;
 }
 
 .bird {
