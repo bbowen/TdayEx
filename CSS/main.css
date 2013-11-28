@@ -134,6 +134,68 @@ footer {
 	vertical-align: top;
 }
 
+
+/*  About page styles */
+
+#colone, #coltwo {
+	width: 35%;
+	height: 300px;
+	float: left;
+	padding: .5em;
+	font-family: Georgia;
+
+}
+
+#colone h2 {
+	color: #c30;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#colone p {
+	text-indent: 1em
+}
+
+#coltwo h2 {
+	color: #c30;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#coltwo p {
+	text-indent: 1em
+}
+#sidebar{
+	width: 25%;
+	height: 300px;
+	float: left;
+	padding: .5em;
+	font-family: Georgia;
+	border-left: 1em, solid, #c30
+}
+
+#sidebar h3{
+	color: #c30;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+#sidebar {
+	font-family: Georgia;
+	font-size: 1em;
+	line-height: .5em;
+}
+
+#sidebar ul li {
+	color: green;
+}
+
+.bird {
+	clear: both;
+}
+
 @media only screen and (max-width: 768px) {
 nav {
 	margin: 2em 5%;
@@ -149,18 +211,3 @@ nav {
 	border-radius: 0.375em;
 }
 
-/*  About page styles */
-
-#colone h2{
-	color: red;
-}
-
-
-#sidebar h3{
-	text-decoration: bold;
-}
-#sidebar{
-	font-family: Georgia;
-	font-size: 16px;
-	line-height: 1em;
-}
