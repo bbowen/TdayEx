@@ -1,0 +1,68 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Here Goes Nothing</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	</head>
+
+		<body> 
+			<div id="header">
+					<img src="C:\Documents and Settings\Brett\My Documents\GitHub\TdayEx/image/casket.jpg" height="200px" width="800px">
+					<h2>50 YEARS SINCE THE END OF CAMALOT,   November 22, 1963 - November 22, 2013</h2>
+			</div> <!-- header div-->	
+				
+				<div> <!--Main content tag div tag--> 
+
+					<nav class="nav">
+						<ul>
+	 						<li><a href="home.html" >Home</a></li>
+	 						<li><a href="about.html">About</a></li>
+	 						<li><a href="contact.html" class="current">Contact</a></li>
+	 						<li><a href="video.html">Video</a></li>
+						</ul>
+ 					</nav> <!-- main nav-->
+
+ 						<form action="/my-handling-form-page" method="post">
+						    <div>
+						        <label for="name"> First Name: *</label>
+						        <input type="text" id="name" />
+						    </div>
+						    <div>
+						        <label for="name"> Last Name: *</label>
+						        <input type="text" id="name" />
+						    </div>
+						    <div>
+						        <label for="password"> Password: *</label>
+						        <input type="text" id="password" />
+						    </div>
+						    <div>
+						        <label for="name"> Confirm Password: *</label>
+						        <input type="text" id="password" />
+						    </div>
+
+						    <div>
+						        <label for="mail">E-mail: *</label>
+						        <input type="email" id="mail" />
+						    </div>
+						    <div>
+						        <label for="msg">Message:</label>
+						        <textarea id="msg"></textarea>
+						    </div>
+						    
+						    <div class="button">
+						        <button type="submit">Submit your Information</button>
+						    </div>
+						</form>
+		
+								
+				</div> <!--End Main div tag -->
+
+			<footer class="text_align_center">
+			<p><span class="super">&copy;</span>Norma Jeane Designs</p>
+			<p>P.O. Box 112263 | Dallas, TX. 75001</p>
+			<p><a href="tel:2147540129">(214) 754-0129</a> | <a href="mailtonjdesigns@normajeane.org?subject=njd.org%20website">njdesigns@normajeane.org</a>
+			</p>
+		</body> 
+</html>	
+	
