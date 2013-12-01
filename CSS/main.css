@@ -159,6 +159,9 @@ footer {
 	line-height: 1.25em;
 }
 
+#colone p:first-letter { font-size: 2em; }
+#colone p:first-line { 1em; }
+
 #coltwo h2 {
 	color: #c30;
 	font-weight: bold;
@@ -171,6 +174,10 @@ footer {
 	text-indent: 1em;
 	line-height: 1.25em;
 }
+#coltwo p:first-letter { font-size: 2em; }
+#coltow p:first-line { 1em; }
+
+
 #sidebar{
 	width: 25%;
 	height: 325px;
