@@ -6,7 +6,7 @@
 	function startCarousel() {
 		runCarousel = setInterval(function() {
 			moveCarousel(nextVisible);
-		}, 10000);
+		}, 5000);
 	}
 
 	function moveCarousel(currentlyVisible) {
