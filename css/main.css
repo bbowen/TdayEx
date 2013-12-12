@@ -143,6 +143,7 @@ footer {
 	float: left;
 	padding: .5em;
 	font-family: Georgia;
+	overflow: hidden;
 
 }
 
